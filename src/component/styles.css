@@ -1,0 +1,167 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #777d87;
+    ;
+}
+
+.form-container {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.form-content {
+    padding-left: 12%;
+    padding-right: 12%
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+}
+
+.lable-input-box {
+    color: blueviolet;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.lable {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+}
+
+.lable-text {
+    padding-bottom: 5px;
+}
+
+.input-box {
+    height: 25px;
+}
+
+.button {
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+
+}
+
+.btn {
+    /* background-color: #c2d6dd; */
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.span-link {
+    color: red;
+}
+
+
+.home-style {
+    background-color: #777d87;
+}
+
+
+.main-book-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.description-box {
+    margin-left: 5%;
+
+}
+
+.description {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.main-card-continer {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.landingPage-container {
+    /* background-color: #521350; */
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.book-image-card {
+    display: flex;
+    height: 70vh;
+    width: auto;
+}
+
+.price-book-card {
+    color: rebeccapurple;
+}
+
+.NavBar-box {
+    width: auto;
+    background-color: #42374a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search-box-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search-box {
+    margin-top: 4px;
+    width: 120%;
+    height: 80%;
+    border-color: #251430;
+}
+
+.button-logOut {
+    margin-top: 3px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #251430;
+
+}
+.pagination-box{
+    display: flex;
+    justify-content: center;
+}
+.pagination li {
+    display: inline;
+    margin-left: 5px;
+}
+.pagination li a{
+    color: black;
+    display: flex;
+    box-sizing: border-box yellow ;
+}
+
+.pagination  {
+    font-size: 20px;
+    display: flex;
+}
